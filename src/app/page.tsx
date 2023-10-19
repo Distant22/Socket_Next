@@ -1,8 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
-
-const socket = new WebSocket("ws://localhost:8080/ws"); // Replace with your server URL
+const socket = new WebSocket("ws://dt22--elysia--tpccqhcrfjfy.code.run/ws"); // Replace with your server URL
 
 export default function Home() {
 
