@@ -52,7 +52,7 @@ export default function Home() {
 
   return (
     <div className="h-screen w-screen flex justify-center items-center flex-col space-y-5 bg-blue-100">
-      <h1>The 測試</h1>
+      <h1>Websocket 測試</h1>
       <div className="flex space-x-10 justify-center">
         <div>
           <p className="flex justify-center">輸入要傳送的文字：</p>
@@ -64,7 +64,7 @@ export default function Home() {
           />
         </div>
         <div>
-          <p className="flex justify-center">輸入 User ID：</p>
+          <p className="flex justify-center">輸入 Live ID：</p>
           <input
             className="m-2 p-1 rounded-lg"
             type="number"
