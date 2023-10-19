@@ -80,7 +80,7 @@ export default function Home() {
         傳送
       </button>
       <p>發送紀錄：</p>
-      <div className="h-1/4 w-1/5 bg-white rounded-xl overflow-y-scroll p-4 flex items-center flex-col">
+      <div className="h-1/4 w-1/3 bg-white rounded-xl overflow-y-scroll p-4 flex items-center flex-col">
         {messages.map((message, index) => (
           <div key={index}>{message}</div>
         ))}
